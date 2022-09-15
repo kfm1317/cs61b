@@ -1,0 +1,8 @@
+> init
+<<<
++ kwug.txt wug.txt
+> add kwug.txt
+<<<
+> commit
+Please enter a commit message.
+<<<

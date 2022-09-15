@@ -1,0 +1,20 @@
+> init
+<<<
+> branch zebra
+<<<
++ f.txt wug.txt
+> add f.txt
+<<<
+> commit "just f"
+<<<
+> checkout zebra
+<<<
++ g.txt notwug.txt
+> add g.txt
+<<<
+> commit "just g"
+<<<
+> merge master
+<<<
+E f.txt
+E g.txt

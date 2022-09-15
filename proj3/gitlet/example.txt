@@ -1,0 +1,17 @@
+CWD:
+f.txt: This is not a wug.
+
+
+Add:
+
+
+Removal:
+
+
+Branches:
+master(*): initial commit(#1) <- Main two files(#2)
+other: initial commit(#1) <- Alternative file(#3)
+
+Initial Commit(#1):      Main two files(#2)(*):        Alternative file(#3):
+                         f.txt: This is not a wug.     f.txt: This is not a wug.
+                         g.txt: This is not a wug.

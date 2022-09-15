@@ -1,0 +1,27 @@
+> init
+<<<
+> branch meissner
+<<<
+> merge master
+Cannot merge a branch with itself.
+<<<
+> merge hilfinger
+A branch with that name does not exist.
+<<<
++ f.txt wug.txt
+> add f.txt
+<<<
+> commit "master up 1"
+<<<
++ g.txt notwug.txt
+> add g.txt
+<<<
+> merge meissner
+You have uncommited changes.
+<<<
+> commit "add g"
+<<<
++ z.txt notwug.txt
+> merge meissner
+Given branch is an ancestor of the current branch.
+<<<

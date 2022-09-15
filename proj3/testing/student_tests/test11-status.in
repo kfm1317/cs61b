@@ -1,0 +1,36 @@
+I prelude1.inc
+> branch zebra
+<<<
++ kwug.txt wug.txt
++ twug.txt wug.txt
+> add kwug.txt
+<<<
+> add twug.txt
+<<<
+> commit "kwug and twug"
+<<<
++ mwug.txt wug.txt
+> add mwug.txt
+<<<
+> rm kwug.txt
+<<<
++ twug.txt notwug.txt
++ xwug.txt wug.txt
+> status
+=== Branches ===
+*master
+zebra
+
+=== Staged Files ===
+mwug.txt
+
+=== Removed Files ===
+kwug.txt
+
+=== Modifications Not Staged For Commit ===
+twug.txt (modified)
+
+=== Untracked Files ===
+xwug.txt
+
+<<<

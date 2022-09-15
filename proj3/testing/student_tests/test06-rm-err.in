@@ -1,0 +1,11 @@
+> init
+<<<
++ kwug.txt wug.txt
+> add kwug.txt
+<<<
+> commit "kwug.txt"
+<<<
++ mwug.txt notwug.txt
+> rm mug.txt
+No reason to remove the file.
+<<<

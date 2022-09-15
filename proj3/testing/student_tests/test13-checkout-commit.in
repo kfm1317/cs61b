@@ -1,0 +1,41 @@
+I prelude1.inc
++ kwug.txt wug.txt
+> add kwug.txt
+<<<
+> commit "kwug.txt"
+<<<
++ mwug.txt notwug.txt
+> add mwug.txt
+<<<
+> commit "added mwug"
+<<<
++ kwug.txt notwug.txt
+> add kwug.txt
+<<<
+> commit "changed kwug"
+<<<
+> log
+===
+${COMMIT_HEAD}
+changed kwug
+
+===
+${COMMIT_HEAD}
+added mwug
+
+===
+${COMMIT_HEAD}
+kwug.txt
+
+===
+${COMMIT_HEAD}
+initial commit
+
+<<<*
+D FIRST "${4}"
+D SECOND "${3}"
+D THIRD "${2}"
+D FOURTH "${1}"
+> checkout ${THIRD} -- kwug.txt
+<<<
+= kwug.txt wug.txt

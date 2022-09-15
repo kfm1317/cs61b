@@ -1,0 +1,11 @@
+> init
+<<<
++ kwug.txt wug.txt
+> add kwug.txt
+<<<
+> commit "kwug.txt"
+<<<
++ kwug notwug.txt
+> checkout -- kwug.txt
+<<<
+= kwug.txt wug.txt

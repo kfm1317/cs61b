@@ -1,0 +1,10 @@
+# Set up gitlet.
+> init
+<<<
+E .gitlet
+E .gitlet/add_stage
+E .gitlet/removal_stage
+E .gitlet/branches
+E .gitlet/branches/master
+E .gitlet/head
+E .gitlet/commits

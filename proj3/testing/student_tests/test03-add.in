@@ -1,0 +1,7 @@
+> init
+<<<
++ kwug.txt wug.txt
+> add kwug.txt
+<<<
+E .gitlet/add_stage/kwug.txt
+= kwug.txt wug.txt

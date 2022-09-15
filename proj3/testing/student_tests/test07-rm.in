@@ -1,0 +1,11 @@
+> init
+<<<
++ kwug.txt wug.txt
+> add kwug.txt
+<<<
+> commit "kwug.txt"
+<<<
+> rm kwug.txt
+<<<
+E .gitlet/removal_stage/kwug.txt
+* kwug.txt

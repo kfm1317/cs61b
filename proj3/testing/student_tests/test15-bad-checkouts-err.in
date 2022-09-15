@@ -1,0 +1,43 @@
+> init
+<<<
++ kwug.txt wug.txt
+> add kwug.txt
+<<<
+> commit "just kwug"
+<<<
+> checkout -- meisssner.txt
+File does not exist in that commit.
+<<<
++ g.txt notwug.txt
+> add g.txt
+<<<
+> commit "added g"
+<<<
++ twug.txt wug.txt
+> add twug.txt
+<<<
+> commit "adding twug"
+<<<
+> checkout aaaaa -- kwug.txt
+No commit with that id exists.
+<<<
+> checkout d5 ** kwug.txt
+Incorrect operands.
+<<<
+> branch bears
+<<<
+> checkout master
+No need to check out the current branch.
+<<<
+> checkout zebra
+No such branch exists.
+<<<
++ mwug.txt wug.txt
+> add mwug.txt
+<<<
+> commit "horray"
+<<<
++ kwug.txt notwug.txt
+> checkout bears
+There is an untracked file in the way; delete it, or add and commit it first.
+<<<

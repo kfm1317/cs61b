@@ -1,0 +1,17 @@
+> init
+<<<
+> branch zebra
+<<<
+> branch zebra
+A branch with that name already exists.
+<<<
+E .gitlet/branches/zebra
+> rm-branch yay
+A branch with that name does not exist.
+<<<
+> rm-branch master
+Cannot remove the current branch.
+<<<
+> rm-branch zebra
+<<<
+* .gitlet/branches/zebra

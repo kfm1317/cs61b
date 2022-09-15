@@ -1,0 +1,7 @@
+> init
+<<<
++ kwug.txt wug.txt
+> add kwug.txt
+<<<
+> commit "kwug.txt"
+<<<

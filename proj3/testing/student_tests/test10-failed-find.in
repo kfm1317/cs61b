@@ -1,0 +1,45 @@
+I prelude1.inc
++ kwug.txt wug.txt
+> add kwug.txt
+<<<
+> commit "kwug.txt"
+<<<
++ mwug.txt notwug.txt
+> add mwug.txt
+<<<
+> commit "added m"
+<<<
+> rm kwug.txt
+<<<
+> commit "removed k"
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "added m"
+<<<
+> log
+===
+${COMMIT_HEAD}
+added m
+
+===
+${COMMIT_HEAD}
+removed k
+
+===
+${COMMIT_HEAD}
+added m
+
+===
+${COMMIT_HEAD}
+kwug.txt
+
+===
+${COMMIT_HEAD}
+initial commit
+
+<<<*
+> find "meissner"
+Found no commit with that message.
+<<<
